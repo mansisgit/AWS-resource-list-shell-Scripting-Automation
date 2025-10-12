@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # services supported by this script:
 # 1. EC2
 # 2. RDS
@@ -17,7 +16,7 @@
 # 14. VPC
 # 15. EBS
 # The script will prompt the user to enter the AWS region and the service for which the resources need to be listed.
-#
+
 # Usage: ./aws_resource_list.sh  <aws_region> <aws_service>
 # Example: ./aws_resource_list.sh us-east-1 ec2
 #############################################################################
